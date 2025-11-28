@@ -16,7 +16,7 @@ export interface BettingSite {
 }
 
 export const bettingSites: BettingSite[] = [
-    {
+  {
     id: 1,
     name: "BWIN",
     logo: "/bwin.png",
@@ -25,8 +25,9 @@ export const bettingSites: BettingSite[] = [
     rating: 9.8,
     stars: 4,
     reviews: 5173,
-    badges: [],
+    badges: ["MAIS POPULAR"],
     terms: "18+ | Jogo Seguro | Licença SRIJ",
+    isPopular: true,
   },
   {
     id: 2,
@@ -37,7 +38,8 @@ export const bettingSites: BettingSite[] = [
     rating: 9.7,
     stars: 4,
     reviews: 6851,
-    badges: [],
+    badges: ["TENDÊNCIA"],
+    isTrending: true,
     terms: "18+ | Jogo Seguro | Licença SRIJ",
   },
   {
@@ -62,9 +64,9 @@ export const bettingSites: BettingSite[] = [
     rating: 9.4,
     stars: 5,
     reviews: 6244,
-    badges: ["MAIS POPULAR"],
+    badges: [],
     terms: "18+ | Jogo Seguro | Licença SRIJ",
-    isPopular: true,
+
   },
   {
     id: 5,
@@ -75,9 +77,9 @@ export const bettingSites: BettingSite[] = [
     rating: 9.3,
     stars: 5,
     reviews: 3837,
-    badges: ["TENDÊNCIA"],
+    badges: [],
     terms: "18+ | Jogo Seguro | Licença SRIJ",
-    isTrending: true,
+
   },
   {
     id: 6,
