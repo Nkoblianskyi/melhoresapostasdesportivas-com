@@ -14,14 +14,10 @@ export function TopOffersModal({ sites }: TopOffersModalProps) {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
-    const hasVisited = localStorage.getItem("hasVisitedBefore")
-    if (!hasVisited) {
       const timer = setTimeout(() => {
         setIsOpen(true)
-        localStorage.setItem("hasVisitedBefore", "true")
-      }, 3000)
+      }, 8000)
       return () => clearTimeout(timer)
-    }
   }, [])
 
   const renderStars = (stars: number) => {
