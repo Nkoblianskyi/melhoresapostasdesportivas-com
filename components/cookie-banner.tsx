@@ -29,9 +29,6 @@ export function CookieBanner() {
     <div className="fixed bottom-0 left-0 right-0 md:bottom-6 md:left-6 md:right-auto md:max-w-md z-50">
       <div className="bg-card border border-border rounded-t-2xl md:rounded-2xl shadow-xl p-5 m-0 md:m-0">
         <div className="flex items-start gap-4">
-          <div className="w-10 h-10 rounded-full bg-brand-green/10 flex items-center justify-center flex-shrink-0">
-            <Cookie className="w-5 h-5 text-brand-green" />
-          </div>
           <div className="flex-1">
             <h3 className="font-semibold text-foreground mb-1">Utilizamos Cookies</h3>
             <p className="text-sm text-muted-foreground mb-4">
